@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>EasyPay New User Register</title>
+</head>
+<body>
+<div>
+    <h2>EasyPay New User Register</h2>
+    <form method="get" action="/registerSuccess">
+        <label for="username">UserName:</label><br>
+        <input type="text" id="username" name="username" required/><br>
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" name="password" required/><br>
+        <label for="cp">Confirm Password:</label><br>
+        <input type="text" id="cp" name="cp" required/><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" required/><br>
+        <input type="submit" value="Register">
+    </form>
+</div>
+</body>
+</html>
